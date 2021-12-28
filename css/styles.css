@@ -1,6 +1,6 @@
 body {
   color: #212121;
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Убирает точки в списке */
@@ -54,18 +54,20 @@ body {
 .web {
   font-size: 26px;
   font-weight: 700;
+  letter-spacing: 0.03em;
   font-family: "Raleway";
   color: var(--link-color);
-  line-height: 1.174;
+  line-height: 1.17;
 }
 
 /* Шапка. Шрифт логотипа. Studio */
 .studio {
   font-size: 26px;
   font-weight: 700;
+  letter-spacing: 0.03em;
   font-family: "Raleway";
   color: var(--header-color);
-  line-height: 1.174;
+  line-height: 1.17;
 }
 
 /* Шапка. Шрифт логотипа */
@@ -74,13 +76,14 @@ body {
   font-weight: 700;
   font-family: "Raleway";
   color: #212121;
-  line-height: 1.174;
+  line-height: 1.17;
 }
 
 /* Шапка. Шрифт и цвет ссылок */
 .header-link {
   font-size: 14px;
   font-weight: 500;
+  letter-spacing: 0.02em;
   color: #212121;
 }
 
@@ -89,26 +92,30 @@ body {
 .header-tel {
   font-size: 14px;
   font-weight: 500;
+  letter-spacing: 0.02em;
   color: #757575;
 }
 
 /* Заголовок. Шрифт и цвет кнопки */
 .hero-btn {
+  font-size: 16px;
   font-weight: 700;
+  font-family: "Roboto";
+  letter-spacing: 0.06em;
   background-color: var(--link-color);
   color: var(--header-color);
-  line-height: 1.875;
+  line-height: 1.88;
   cursor: pointer;
   position: relative;
-  left: 50%;
 }
 
 /* Заголовок. Шрифт и цвет */
 .hero-property {
   font-size: 44px;
   font-weight: 900;
+  letter-spacing: 0.06em;
   color: var(--header-color);
-  line-height: 1.364;
+  line-height: 1.36;
   text-align: center;
 }
 
@@ -116,37 +123,42 @@ body {
 .feature-property {
   font-size: 14px;
   font-weight: 700;
+  letter-spacing: 0.03em;
   color: #212121;
-  line-height: 1.172;
+  line-height: 1.17;
 }
 
 /* Особенности. Шрифт и цвет текста */
 .feature-text {
   font-size: 14px;
+  letter-spacing: 0.03em;
   color: #757575;
-  line-height: 1.714;
+  line-height: 1.71;
 }
 
 /* Чем мы занимаемся. Шрифт и цвет текста */
 .heading {
   font-size: 36px;
   font-weight: 700;
+  letter-spacing: 0.03em;
   color: #212121;
-  line-height: 1.172;
+  line-height: 1.17;
   text-align: center;
 }
 
 /* Команда. Шрифт и цвет заголовков */
 .teams-property {
   font-weight: 500;
+  letter-spacing: 0.03em;
   color: #212121;
-  line-height: 1.172;
+  line-height: 1.17;
 }
 
 /* Команда. Шрифт и цвет текста */
 .teams-text {
+  letter-spacing: 0.03em;
   color: #757575;
-  line-height: 1.714;
+  line-height: 1.71;
 }
 
 /* Подвал. Шрифт логотипа */
@@ -154,22 +166,25 @@ body {
   font-size: 26px;
   font-weight: 700;
   font-family: "Raleway";
-  line-height: 1.714;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 
 /* Подвал. Шрифт и цвет контактов */
 .footer-adress {
   font-size: 14px;
   color: var(--header-color);
-  line-height: 1.714;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 
 /* Подвал. Шрифт и цвет контактов */
 .footer-mail,
 .footer-tel {
   font-size: 14px;
-  color: var(--header-color);
-  line-height: 1.714;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 
 /* Кнопки фильтра. Шрифт и цвет кнопки */
@@ -177,9 +192,10 @@ body {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
+  letter-spacing: 0.03em;
   background-color: #f5f4fa;
   color: #212121;
-  line-height: 1.625;
+  line-height: 1.63;
   cursor: pointer;
 }
 
@@ -194,12 +210,14 @@ body {
 .project-property {
   font-size: 18px;
   font-weight: 700;
+  letter-spacing: 0.06em;
   color: #212121;
   line-height: 2;
 }
 
-/* Наши проекты. Шрифт и цвет заголовков */
+/* Наши проекты. Шрифт и цвет текста */
 .project-text {
+  letter-spacing: 0.03em;
   color: #757575;
-  line-height: 1.875;
+  line-height: 1.88;
 }
